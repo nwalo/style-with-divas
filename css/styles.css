@@ -12,8 +12,7 @@ nav{
 
 header{
   background-image: url(../images/business.jpg);
-  /* background-color: rgba(228, 137, 137, .5); */
-  background-color: rgba(0, 0, 0, .3);
+  background-color: #00000066 ;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -27,8 +26,8 @@ header .header-info{
 }
 
 header .header-text{
-  padding: 10px;
-  background-color: rgba(0, 0, 0, 0.5);
+  padding: 15px;
+  background-color: #00000088 ;
   width: 400px;
   /* box-shadow: 0px 0px 20px 10px black; */
 }
@@ -39,14 +38,6 @@ header h6 {
 
 nav div{
   display: inline-block;
-}
-
-nav small{
-  color: #DFD0D0;
-  font-size: .8em;
-  /* position: relative; */
-  bottom: 10px;
-  margin: 0;
 }
 
 nav .links{
@@ -166,27 +157,24 @@ section{
   background: url(../images/people.jpg);
   background-position: top left;
   background-repeat: no-repeat;
-  /* background-size: cover; */
 }
 
 .col:nth-of-type(2){
   background: url(../images/colll-shoe.jpg);
   background-position: center;
   background-repeat: no-repeat;
-  /* background-size: cover; */
 }
 .col:nth-of-type(3){
   background-color: yellow;
   background: url(../images/col-bag.jpg);
   background-position: top right;
   background-repeat: no-repeat;
-  /* background-size: cover; */
 }
 
 .col:hover{
   flex-grow: 2;
   transition: .6s ease;
-  background-color: rgba(0, 0, 0, .4);
+  background-color: #00000044 ;
   background-blend-mode: multiply;
 }
 
@@ -198,22 +186,9 @@ section{
   color: white;
 }
 
-.note .{
-  background-color: #FFD6D6 ;
-}
-
-.note .yellow{
-  background-color: # ;
-}
-
-.note .blue{
-  background-color: # ;
-}
-
 .col:hover .note{
   display: block;
 }
-
 
 /* PRODUCTS */
 
@@ -279,11 +254,9 @@ section{
 /* EDITION */
 
 #edition{
-  display: flex;
   padding: 50px;
   background: url(../images/woman.jpg);
   background-color: #F2B0B0;
-  /* background-color: #F1BEBE; */
   background-repeat: no-repeat;
   background-position: right;
   background-blend-mode: multiply;
