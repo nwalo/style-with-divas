@@ -9,7 +9,7 @@ window.FontAwesomeKitConfig = {
   "detectConflictsUntil": null,
   "iconUploads": {},
   "license": "pro",
-  "method": "js",
+  "method": "css",
   "minify": {
     "enabled": true
   },
