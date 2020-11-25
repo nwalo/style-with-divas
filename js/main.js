@@ -22,4 +22,18 @@
       }
     });
 
+    $('.pop-up').hide();
+    // $(document).on('keydown', closeNotification);
+
+    $('#drop').on('click', function (e) {
+      e.preventDefault();
+      $('.pop-up').toggle();
+    });
+    // $('body #drop').on('click', function (e) {
+    //   e.preventDefault();
+    //   $('.pop-up').toggle();
+    // });
+
+
+
 });

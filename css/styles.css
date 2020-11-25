@@ -22,6 +22,18 @@ h2{
   color: #d9534f;
 }
 
+.ash{
+  color: #DFD0D0;
+}
+
+.white{
+  color: #ffffff;
+}
+
+.btn-theme{
+  background-color: #d9534f;
+}
+
 .black{
   color: black;
 }
@@ -64,6 +76,12 @@ nav{
   padding: 10px 50px;
   position: sticky;
   top: 0;
+  z-index: 100;
+}
+
+.top-menu{
+  position: static;
+  z-index: 1000;
 }
 
 header{
@@ -500,7 +518,8 @@ footer .newsletter button{
   background-color: transparent;
   color: white;
   font-weight: 500;
-  padding: 5px;
+  padding: 8px;
+  margin-bottom: 10px;
 }
 
 footer .newsletter button:hover{
@@ -590,5 +609,36 @@ footer h5{
 @media (max-width: 800px) {
   .footer{
     padding: 0px 10px;
+  }
+}
+
+/* POP-UP */
+
+.pop-up{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 250px;
+  height: 100px;
+  background: #00000088;
+  position: absolute;
+  right: 140px;
+  box-shadow: 0 0 3px 1.5px #d85b5b;
+  z-index: 50;
+}
+
+.pop-up button{
+  border: 1px #d9534f solid;
+  padding: 8px 15px;
+  font-weight: 500;
+}
+
+.pop-up a{
+  color: #d9534f;
+}
+
+@media (max-width: 900px) {
+  .pop-up{
+    right: 0;
   }
 }
